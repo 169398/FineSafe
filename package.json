@@ -9,19 +9,37 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@clerk/nextjs": "^4.29.4",
+    "@clerk/themes": "^1.7.9",
+    "@radix-ui/react-slot": "^1.0.2",
+    "@vercel/node": "^3.0.17",
+    "@vercel/postgres": "^0.5.1",
+    "antd": "^5.13.2",
+    "axios": "^1.6.5",
+    "class-variance-authority": "^0.7.0",
+    "clsx": "^2.1.0",
+    "drizzle-orm": "^0.29.3",
+    "lucide-react": "^0.312.0",
+    "next": "14.0.4",
+    "postgres": "^3.4.3",
     "react": "^18",
+    "react-chat": "^0.0.1-alpha1",
+    "react-chat-elements": "^12.0.11",
+    "react-chatbot-kit": "^2.2.2",
     "react-dom": "^18",
-    "next": "14.0.4"
+    "tailwind-merge": "^2.2.0",
+    "tailwindcss-animate": "^1.0.7"
   },
   "devDependencies": {
-    "typescript": "^5",
+    "@types/antd": "^1.0.0",
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",
     "autoprefixer": "^10.0.1",
+    "eslint": "^8",
+    "eslint-config-next": "14.0.4",
     "postcss": "^8",
     "tailwindcss": "^3.3.0",
-    "eslint": "^8",
-    "eslint-config-next": "14.0.4"
+    "typescript": "^5"
   }
 }
